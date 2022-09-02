@@ -122,7 +122,7 @@ body {
 .recommended__container {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    text-align: center;
 }
 
 .recommended__text p,
@@ -135,8 +135,8 @@ body {
 
 .recommended__cards-container {
     display: flex;
-    justify-content: space-around;
     width: 100%;
+    justify-content: center;
 }
 
 .recommended__card {
@@ -146,6 +146,7 @@ body {
     justify-content: space-around;
     width: 20%;
     height: 6rem;
+    margin: 1rem;
     background: var(--bg-gray);
     border-radius: 10px;
     box-shadow: -3px 2px 20px 5px rgba(0, 0, 0, 0.75);
@@ -192,7 +193,9 @@ body {
 
 .pizzas-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .pizza__container-cards {
